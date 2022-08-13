@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App API</title>
+</head>
+<body>
+<h1>Welcome to chat app api</h1>
+<p>This is a rest API, with following functionality</p>
+<ul>
+    <li>
+        <h3>
+            <i>POST</i>
+            <span>chat</span>
+            <small>
+                <i>apiUrl</i>/messages/
+            </small>
+        </h3>
+        <div>
+            <b>Request Body</b>
+            <br/>
+            <pre>
+    {
+        "text": "hello Everyone",
+        "groupId": "Special_Group"
+        "userName": "tunder_lord_005"
+    }
+                </pre>
+        </div>
+        <div>
+            <b>Response</b> <br/>
+            <b>Code: 201</b> <br/>
+            <b>Response Body:</b>
+            <pre>
+    {
+        "id": "234433434",
+        "text": "hello Everyone",
+        "groupId": "Special_Group"
+        "userName": "tunder_lord_005"
+        "createdAt": "2022-02-20",
+        "updatedAt": "2022-02-20",
+    }
+                </pre>
+        </div>
+    </li>
+</ul>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
